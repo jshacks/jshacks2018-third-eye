@@ -8,8 +8,8 @@
 
     <Button
         android:id="@+id/play"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
         android:layout_marginBottom="18dp"
@@ -33,21 +33,13 @@
         android:layout_above="@+id/play"
         android:layout_alignParentEnd="true" />
 
-    <TextView
-        android:id="@+id/textView2"
+    <ImageView
+        android:id="@+id/microphone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/button3"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="27dp"
-        android:text="" />
+        android:layout_marginTop="500dp"
+        android:src="@drawable/microphone"/>
 
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_below="@+id/camera_image"
-        android:layout_marginEnd="21dp"
-        android:text="Send" />
+
 </RelativeLayout>
