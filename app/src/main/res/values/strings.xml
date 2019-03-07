@@ -2,7 +2,7 @@
     <string name="app_name">ThirdEye</string>
     <string name="wait_text">Just a moment please</string>
     <string name="save_path">"/sdcard/test/testfile.jpg"</string>
-    <string name="server_url">" http://6acf8460.ngrok.io/api/test"</string>
+    <string name="server_url">"http://be979ea9.ngrok.io/api/test"</string>
     <string name="hello_text">"hi! I'm here to help you"</string>
     <string name="captioning_mode">"captioning image mode"</string>
     <string name="bar_code_mode">"product recognition mode"</string>
